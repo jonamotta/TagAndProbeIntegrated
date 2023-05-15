@@ -185,86 +185,86 @@ private:
   std::vector<float> _l1tEmuMuPhi;
   std::vector<int> _l1tEmuMuIso;
 
-  std::vector<float> _hltTauPt;
-  std::vector<float> _hltTauEta;
-  std::vector<float> _hltTauPhi;
-  std::vector<int> _hltTauTriggerBits;
+  // std::vector<float> _hltTauPt;
+  // std::vector<float> _hltTauEta;
+  // std::vector<float> _hltTauPhi;
+  // std::vector<int> _hltTauTriggerBits;
 
-  std::vector<float> _hltMuPt;
-  std::vector<float> _hltMuEta;
-  std::vector<float> _hltMuPhi;
-  std::vector<int> _hltMuTriggerBits;
+  // std::vector<float> _hltMuPt;
+  // std::vector<float> _hltMuEta;
+  // std::vector<float> _hltMuPhi;
+  // std::vector<int> _hltMuTriggerBits;
 
-  std::vector<float> _hltElePt;
-  std::vector<float> _hltEleEta;
-  std::vector<float> _hltElePhi;
-  std::vector<int> _hltEleTriggerBits;
+  // std::vector<float> _hltElePt;
+  // std::vector<float> _hltEleEta;
+  // std::vector<float> _hltElePhi;
+  // std::vector<int> _hltEleTriggerBits;
   
-  int _hltL2CaloJet_N;
-  std::vector<float> _hltL2CaloJet_Pt;
-  std::vector<float> _hltL2CaloJet_Eta;
-  std::vector<float> _hltL2CaloJet_Phi;
-  std::vector<float> _hltL2CaloJet_Iso;
+  // int _hltL2CaloJet_N;
+  // std::vector<float> _hltL2CaloJet_Pt;
+  // std::vector<float> _hltL2CaloJet_Eta;
+  // std::vector<float> _hltL2CaloJet_Phi;
+  // std::vector<float> _hltL2CaloJet_Iso;
 
-  int _hltL2CaloJetIsoPix_N;
-  std::vector<float> _hltL2CaloJetIsoPix_Pt;
-  std::vector<float> _hltL2CaloJetIsoPix_Eta;
-  std::vector<float> _hltL2CaloJetIsoPix_Phi;
+  // int _hltL2CaloJetIsoPix_N;
+  // std::vector<float> _hltL2CaloJetIsoPix_Pt;
+  // std::vector<float> _hltL2CaloJetIsoPix_Eta;
+  // std::vector<float> _hltL2CaloJetIsoPix_Phi;
 
-  int _hltPixelTrack_N;
-  std::vector<float> _hltPixelTrack_Pt;
-  std::vector<float> _hltPixelTrack_Eta;
-  std::vector<float> _hltPixelTrack_Phi;
+  // int _hltPixelTrack_N;
+  // std::vector<float> _hltPixelTrack_Pt;
+  // std::vector<float> _hltPixelTrack_Eta;
+  // std::vector<float> _hltPixelTrack_Phi;
 
-  int _hltMergedTrackTauReg_N;
-  std::vector<float> _hltMergedTrackTauReg_Pt;
-  std::vector<float> _hltMergedTrackTauReg_Eta;
-  std::vector<float> _hltMergedTrackTauReg_Phi;
+  // int _hltMergedTrackTauReg_N;
+  // std::vector<float> _hltMergedTrackTauReg_Pt;
+  // std::vector<float> _hltMergedTrackTauReg_Eta;
+  // std::vector<float> _hltMergedTrackTauReg_Phi;
 
-  int _hltPFRegCand_N;
-  std::vector<float> _hltPFRegCand_Pt;
-  std::vector<float> _hltPFRegCand_Eta;
-  std::vector<float> _hltPFRegCand_Phi;
+  // int _hltPFRegCand_N;
+  // std::vector<float> _hltPFRegCand_Pt;
+  // std::vector<float> _hltPFRegCand_Eta;
+  // std::vector<float> _hltPFRegCand_Phi;
 
-  int _hltAK4PFRegJet_N;
-  std::vector<float> _hltAK4PFRegJet_Pt;
-  std::vector<float> _hltAK4PFRegJet_Eta;
-  std::vector<float> _hltAK4PFRegJet_Phi;
+  // int _hltAK4PFRegJet_N;
+  // std::vector<float> _hltAK4PFRegJet_Pt;
+  // std::vector<float> _hltAK4PFRegJet_Eta;
+  // std::vector<float> _hltAK4PFRegJet_Phi;
 
-  int _hltPFRegCandJetReg_N;
-  std::vector<float> _hltPFRegCandJetReg_Pt;
-  std::vector<float> _hltPFRegCandJetReg_Eta;
-  std::vector<float> _hltPFRegCandJetReg_Phi;
+  // int _hltPFRegCandJetReg_N;
+  // std::vector<float> _hltPFRegCandJetReg_Pt;
+  // std::vector<float> _hltPFRegCandJetReg_Eta;
+  // std::vector<float> _hltPFRegCandJetReg_Phi;
   
-  int _hltTauPFJetsRecoTauChargedHadronsReg_N;
-  std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Pt;
-  std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Eta;
-  std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Phi;
+  // int _hltTauPFJetsRecoTauChargedHadronsReg_N;
+  // std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Pt;
+  // std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Eta;
+  // std::vector<float> _hltTauPFJetsRecoTauChargedHadronsReg_Phi;
 
-  int _hltPFTauPiZerosReg_N;
-  std::vector<float> _hltPFTauPiZerosReg_Pt;
-  std::vector<float> _hltPFTauPiZerosReg_Eta;
-  std::vector<float> _hltPFTauPiZerosReg_Phi;
+  // int _hltPFTauPiZerosReg_N;
+  // std::vector<float> _hltPFTauPiZerosReg_Pt;
+  // std::vector<float> _hltPFTauPiZerosReg_Eta;
+  // std::vector<float> _hltPFTauPiZerosReg_Phi;
 
-  int _hltPFTauSansRefReg_N;
-  std::vector<float> _hltPFTauSansRefReg_Pt;
-  std::vector<float> _hltPFTauSansRefReg_Eta;
-  std::vector<float> _hltPFTauSansRefReg_Phi;
+  // int _hltPFTauSansRefReg_N;
+  // std::vector<float> _hltPFTauSansRefReg_Pt;
+  // std::vector<float> _hltPFTauSansRefReg_Eta;
+  // std::vector<float> _hltPFTauSansRefReg_Phi;
 
-  int _hltPFTauTrack_N;
-  std::vector<float> _hltPFTauTrack_Pt;
-  std::vector<float> _hltPFTauTrack_Eta;
-  std::vector<float> _hltPFTauTrack_Phi;
+  // int _hltPFTauTrack_N;
+  // std::vector<float> _hltPFTauTrack_Pt;
+  // std::vector<float> _hltPFTauTrack_Eta;
+  // std::vector<float> _hltPFTauTrack_Phi;
 
-  int _hltPFTauTrackReg_N;
-  std::vector<float> _hltPFTauTrackReg_Pt;
-  std::vector<float> _hltPFTauTrackReg_Eta;
-  std::vector<float> _hltPFTauTrackReg_Phi;
+  // int _hltPFTauTrackReg_N;
+  // std::vector<float> _hltPFTauTrackReg_Pt;
+  // std::vector<float> _hltPFTauTrackReg_Eta;
+  // std::vector<float> _hltPFTauTrackReg_Phi;
 
-  int _hltPFTau35TrackPt1Reg_N;
-  std::vector<float> _hltPFTau35TrackPt1Reg_Pt;
-  std::vector<float> _hltPFTau35TrackPt1Reg_Eta;
-  std::vector<float> _hltPFTau35TrackPt1Reg_Phi;
+  // int _hltPFTau35TrackPt1Reg_N;
+  // std::vector<float> _hltPFTau35TrackPt1Reg_Pt;
+  // std::vector<float> _hltPFTau35TrackPt1Reg_Eta;
+  // std::vector<float> _hltPFTau35TrackPt1Reg_Phi;
 
   edm::EDGetTokenT<GlobalAlgBlkBxCollection> _ugtTag;
   edm::EDGetTokenT<l1t::TauBxCollection> _ugt_tauTag  ;
@@ -282,19 +282,19 @@ private:
   edm::EDGetTokenT<pat::TriggerObjectStandAloneCollection> _triggerObjects;
   edm::EDGetTokenT<edm::TriggerResults> _triggerBits;
 
-  edm::EDGetTokenT<reco::CaloJetCollection> _hltL2CaloJet_ForIsoPix_Tag;
-  edm::EDGetTokenT<reco::JetTagCollection> _hltL2CaloJet_ForIsoPix_IsoTag;
+  // edm::EDGetTokenT<reco::CaloJetCollection> _hltL2CaloJet_ForIsoPix_Tag;
+  // edm::EDGetTokenT<reco::JetTagCollection> _hltL2CaloJet_ForIsoPix_IsoTag;
 
-  edm::EDGetTokenT<reco::TrackCollection> _hltPixelTracksRegForTau_Tag;
-  edm::EDGetTokenT<reco::TrackCollection> _hltMergedTracksTauReg_Tag;
-  edm::EDGetTokenT<reco::PFCandidateCollection> _hltPFRegCand_Tag;
-  edm::EDGetTokenT<reco::PFJetCollection> _hltAK4PFRegJet_Tag;
-  edm::EDGetTokenT<reco::PFTauCollection> _hltPFTauSansRefReg_Tag;
+  // edm::EDGetTokenT<reco::TrackCollection> _hltPixelTracksRegForTau_Tag;
+  // edm::EDGetTokenT<reco::TrackCollection> _hltMergedTracksTauReg_Tag;
+  // edm::EDGetTokenT<reco::PFCandidateCollection> _hltPFRegCand_Tag;
+  // edm::EDGetTokenT<reco::PFJetCollection> _hltAK4PFRegJet_Tag;
+  // edm::EDGetTokenT<reco::PFTauCollection> _hltPFTauSansRefReg_Tag;
 
-  edm::EDGetTokenT<reco::CandidateView> _jet_token;
-  edm::EDGetTokenT<edm::Association<reco::PFJetCollection> > _hltPFJetRegion_Tag;
-  edm::EDGetTokenT<reco::PFJetChargedHadronAssociation> _chargedHadron_token;
-  edm::EDGetTokenT<reco::JetPiZeroAssociation> _piZero_token;
+  // edm::EDGetTokenT<reco::CandidateView> _jet_token;
+  // edm::EDGetTokenT<edm::Association<reco::PFJetCollection> > _hltPFJetRegion_Tag;
+  // edm::EDGetTokenT<reco::PFJetChargedHadronAssociation> _chargedHadron_token;
+  // edm::EDGetTokenT<reco::JetPiZeroAssociation> _piZero_token;
 
   //!Contains the parameters
   tVParameterSet _parameters;
@@ -332,18 +332,18 @@ ZeroBias::ZeroBias(const edm::ParameterSet& iConfig) :
   _L1MuTag       (consumes<l1t::MuonBxCollection>                   (iConfig.getParameter<edm::InputTag>("L1Mu"))),
   _L1EmuMuTag    (consumes<l1t::MuonBxCollection>                   (iConfig.getParameter<edm::InputTag>("L1EmuMu"))),
   _triggerObjects (consumes<pat::TriggerObjectStandAloneCollection> (iConfig.getParameter<edm::InputTag>("triggerSet"))),
-  _triggerBits    (consumes<edm::TriggerResults>                    (iConfig.getParameter<edm::InputTag>("triggerResultsLabel"))),
-  _hltL2CaloJet_ForIsoPix_Tag(consumes<reco::CaloJetCollection>     (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_Collection"))),
-  _hltL2CaloJet_ForIsoPix_IsoTag(consumes<reco::JetTagCollection>   (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_IsoCollection"))),
-  _hltPixelTracksRegForTau_Tag(consumes<reco::TrackCollection>(iConfig.getParameter<edm::InputTag>("PixelTrackCollection"))),
-  _hltMergedTracksTauReg_Tag(consumes<reco::TrackCollection>(iConfig.getParameter<edm::InputTag>("MergedTrackCollection"))),
-  _hltPFRegCand_Tag(consumes<reco::PFCandidateCollection>(iConfig.getParameter<edm::InputTag>("PFRegCandCollection"))),
-  _hltAK4PFRegJet_Tag(consumes<reco::PFJetCollection>(iConfig.getParameter<edm::InputTag>("AK4PFRegJetCollection"))),
-  _hltPFTauSansRefReg_Tag(consumes<reco::PFTauCollection>(iConfig.getParameter<edm::InputTag>("PFTauSansRefRegCollection"))),
-  _jet_token(consumes<reco::CandidateView>(iConfig.getParameter<edm::InputTag>("AK4PFRegJetCollection"))),
-  _hltPFJetRegion_Tag(consumes<edm::Association<reco::PFJetCollection> >(iConfig.getParameter<edm::InputTag>("PFJetRegionCollection"))),
-  _chargedHadron_token(consumes<reco::PFJetChargedHadronAssociation>(iConfig.getParameter<edm::InputTag>("PFJetChargedHadronAssociation"))),
-  _piZero_token(consumes<reco::JetPiZeroAssociation>(iConfig.getParameter<edm::InputTag>("JetPiZeroAssociation")))
+  _triggerBits    (consumes<edm::TriggerResults>                    (iConfig.getParameter<edm::InputTag>("triggerResultsLabel")))
+  // _hltL2CaloJet_ForIsoPix_Tag(consumes<reco::CaloJetCollection>     (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_Collection"))),
+  // _hltL2CaloJet_ForIsoPix_IsoTag(consumes<reco::JetTagCollection>   (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_IsoCollection"))),
+  // _hltPixelTracksRegForTau_Tag(consumes<reco::TrackCollection>(iConfig.getParameter<edm::InputTag>("PixelTrackCollection"))),
+  // _hltMergedTracksTauReg_Tag(consumes<reco::TrackCollection>(iConfig.getParameter<edm::InputTag>("MergedTrackCollection"))),
+  // _hltPFRegCand_Tag(consumes<reco::PFCandidateCollection>(iConfig.getParameter<edm::InputTag>("PFRegCandCollection"))),
+  // _hltAK4PFRegJet_Tag(consumes<reco::PFJetCollection>(iConfig.getParameter<edm::InputTag>("AK4PFRegJetCollection"))),
+  // _hltPFTauSansRefReg_Tag(consumes<reco::PFTauCollection>(iConfig.getParameter<edm::InputTag>("PFTauSansRefRegCollection"))),
+  // _jet_token(consumes<reco::CandidateView>(iConfig.getParameter<edm::InputTag>("AK4PFRegJetCollection"))),
+  // _hltPFJetRegion_Tag(consumes<edm::Association<reco::PFJetCollection> >(iConfig.getParameter<edm::InputTag>("PFJetRegionCollection"))),
+  // _chargedHadron_token(consumes<reco::PFJetChargedHadronAssociation>(iConfig.getParameter<edm::InputTag>("PFJetChargedHadronAssociation"))),
+  // _piZero_token(consumes<reco::JetPiZeroAssociation>(iConfig.getParameter<edm::InputTag>("JetPiZeroAssociation")))
 {
   this -> _treeName = iConfig.getParameter<std::string>("treeName");
   this -> _processName = iConfig.getParameter<edm::InputTag>("triggerResultsLabel");
@@ -529,87 +529,87 @@ void ZeroBias::Initialize() {
   this -> _l1tEmuMuPhi .clear();
   this -> _l1tEmuMuQual .clear();
 
-  this -> _hltTauPt .clear();
-  this -> _hltTauEta .clear();
-  this -> _hltTauPhi .clear();
-  this -> _hltTauTriggerBits .clear();
+  // this -> _hltTauPt .clear();
+  // this -> _hltTauEta .clear();
+  // this -> _hltTauPhi .clear();
+  // this -> _hltTauTriggerBits .clear();
 
-  this -> _hltMuPt .clear();
-  this -> _hltMuEta .clear();
-  this -> _hltMuPhi .clear();
-  this -> _hltMuTriggerBits .clear();
+  // this -> _hltMuPt .clear();
+  // this -> _hltMuEta .clear();
+  // this -> _hltMuPhi .clear();
+  // this -> _hltMuTriggerBits .clear();
 
-  this -> _hltElePt .clear();
-  this -> _hltEleEta .clear();
-  this -> _hltElePhi .clear();
-  this -> _hltEleTriggerBits .clear();
+  // this -> _hltElePt .clear();
+  // this -> _hltEleEta .clear();
+  // this -> _hltElePhi .clear();
+  // this -> _hltEleTriggerBits .clear();
 
-  this -> _hltL2CaloJet_N = 0;
-  this -> _hltL2CaloJet_Pt.clear();
-  this -> _hltL2CaloJet_Eta.clear();
-  this -> _hltL2CaloJet_Phi.clear();
-  this -> _hltL2CaloJet_Iso.clear();
+  // this -> _hltL2CaloJet_N = 0;
+  // this -> _hltL2CaloJet_Pt.clear();
+  // this -> _hltL2CaloJet_Eta.clear();
+  // this -> _hltL2CaloJet_Phi.clear();
+  // this -> _hltL2CaloJet_Iso.clear();
 
-  this -> _hltL2CaloJetIsoPix_N = 0;
-  this -> _hltL2CaloJetIsoPix_Pt.clear();
-  this -> _hltL2CaloJetIsoPix_Eta.clear();
-  this -> _hltL2CaloJetIsoPix_Phi.clear();
+  // this -> _hltL2CaloJetIsoPix_N = 0;
+  // this -> _hltL2CaloJetIsoPix_Pt.clear();
+  // this -> _hltL2CaloJetIsoPix_Eta.clear();
+  // this -> _hltL2CaloJetIsoPix_Phi.clear();
 
-  this -> _hltPixelTrack_N = 0;
-  this -> _hltPixelTrack_Pt.clear();
-  this -> _hltPixelTrack_Eta.clear();
-  this -> _hltPixelTrack_Phi.clear();
+  // this -> _hltPixelTrack_N = 0;
+  // this -> _hltPixelTrack_Pt.clear();
+  // this -> _hltPixelTrack_Eta.clear();
+  // this -> _hltPixelTrack_Phi.clear();
 
-  this -> _hltMergedTrackTauReg_N = 0;
-  this -> _hltMergedTrackTauReg_Pt.clear();
-  this -> _hltMergedTrackTauReg_Eta.clear();
-  this -> _hltMergedTrackTauReg_Phi.clear();
+  // this -> _hltMergedTrackTauReg_N = 0;
+  // this -> _hltMergedTrackTauReg_Pt.clear();
+  // this -> _hltMergedTrackTauReg_Eta.clear();
+  // this -> _hltMergedTrackTauReg_Phi.clear();
 
-  this -> _hltPFRegCand_N = 0;
-  this -> _hltPFRegCand_Pt.clear();
-  this -> _hltPFRegCand_Eta.clear();
-  this -> _hltPFRegCand_Phi.clear();
+  // this -> _hltPFRegCand_N = 0;
+  // this -> _hltPFRegCand_Pt.clear();
+  // this -> _hltPFRegCand_Eta.clear();
+  // this -> _hltPFRegCand_Phi.clear();
 
-  this -> _hltAK4PFRegJet_N = 0;
-  this -> _hltAK4PFRegJet_Pt.clear();
-  this -> _hltAK4PFRegJet_Eta.clear();
-  this -> _hltAK4PFRegJet_Phi.clear();
+  // this -> _hltAK4PFRegJet_N = 0;
+  // this -> _hltAK4PFRegJet_Pt.clear();
+  // this -> _hltAK4PFRegJet_Eta.clear();
+  // this -> _hltAK4PFRegJet_Phi.clear();
 
-  this -> _hltPFRegCandJetReg_N = 0;
-  this -> _hltPFRegCandJetReg_Pt.clear();
-  this -> _hltPFRegCandJetReg_Eta.clear();
-  this -> _hltPFRegCandJetReg_Phi.clear();
+  // this -> _hltPFRegCandJetReg_N = 0;
+  // this -> _hltPFRegCandJetReg_Pt.clear();
+  // this -> _hltPFRegCandJetReg_Eta.clear();
+  // this -> _hltPFRegCandJetReg_Phi.clear();
   
-  this -> _hltTauPFJetsRecoTauChargedHadronsReg_N = 0;
-  this -> _hltTauPFJetsRecoTauChargedHadronsReg_Pt.clear();
-  this -> _hltTauPFJetsRecoTauChargedHadronsReg_Eta.clear();
-  this -> _hltTauPFJetsRecoTauChargedHadronsReg_Phi.clear();
+  // this -> _hltTauPFJetsRecoTauChargedHadronsReg_N = 0;
+  // this -> _hltTauPFJetsRecoTauChargedHadronsReg_Pt.clear();
+  // this -> _hltTauPFJetsRecoTauChargedHadronsReg_Eta.clear();
+  // this -> _hltTauPFJetsRecoTauChargedHadronsReg_Phi.clear();
 
-  this -> _hltPFTauPiZerosReg_N = 0;
-  this -> _hltPFTauPiZerosReg_Pt.clear();
-  this -> _hltPFTauPiZerosReg_Eta.clear();
-  this -> _hltPFTauPiZerosReg_Phi.clear();
+  // this -> _hltPFTauPiZerosReg_N = 0;
+  // this -> _hltPFTauPiZerosReg_Pt.clear();
+  // this -> _hltPFTauPiZerosReg_Eta.clear();
+  // this -> _hltPFTauPiZerosReg_Phi.clear();
   
 
-  this -> _hltPFTauSansRefReg_N = 0;
-  this -> _hltPFTauSansRefReg_Pt.clear();
-  this -> _hltPFTauSansRefReg_Eta.clear();
-  this -> _hltPFTauSansRefReg_Phi.clear();
+  // this -> _hltPFTauSansRefReg_N = 0;
+  // this -> _hltPFTauSansRefReg_Pt.clear();
+  // this -> _hltPFTauSansRefReg_Eta.clear();
+  // this -> _hltPFTauSansRefReg_Phi.clear();
 
-  this -> _hltPFTauTrack_N = 0;
-  this -> _hltPFTauTrack_Pt.clear();
-  this -> _hltPFTauTrack_Eta.clear();
-  this -> _hltPFTauTrack_Phi.clear();
+  // this -> _hltPFTauTrack_N = 0;
+  // this -> _hltPFTauTrack_Pt.clear();
+  // this -> _hltPFTauTrack_Eta.clear();
+  // this -> _hltPFTauTrack_Phi.clear();
 
-  this -> _hltPFTauTrackReg_N = 0;
-  this -> _hltPFTauTrackReg_Pt.clear();
-  this -> _hltPFTauTrackReg_Eta.clear();
-  this -> _hltPFTauTrackReg_Phi.clear();
+  // this -> _hltPFTauTrackReg_N = 0;
+  // this -> _hltPFTauTrackReg_Pt.clear();
+  // this -> _hltPFTauTrackReg_Eta.clear();
+  // this -> _hltPFTauTrackReg_Phi.clear();
 
-  this -> _hltPFTau35TrackPt1Reg_N = 0;
-  this -> _hltPFTau35TrackPt1Reg_Pt.clear();
-  this -> _hltPFTau35TrackPt1Reg_Eta.clear();
-  this -> _hltPFTau35TrackPt1Reg_Phi.clear();
+  // this -> _hltPFTau35TrackPt1Reg_N = 0;
+  // this -> _hltPFTau35TrackPt1Reg_Pt.clear();
+  // this -> _hltPFTau35TrackPt1Reg_Eta.clear();
+  // this -> _hltPFTau35TrackPt1Reg_Phi.clear();
 
 }
 
@@ -719,86 +719,86 @@ void ZeroBias::beginJob()
   this -> _tree -> Branch("l1tEmuMuPhi", &_l1tEmuMuPhi);
   this -> _tree -> Branch("l1tEmuMuQual", &_l1tEmuMuQual);
 
-  this -> _tree -> Branch("hltTauPt",  &_hltTauPt);
-  this -> _tree -> Branch("hltTauEta", &_hltTauEta);
-  this -> _tree -> Branch("hltTauPhi", &_hltTauPhi);
-  this -> _tree -> Branch("hltTauTriggerBits", &_hltTauTriggerBits);
+  // this -> _tree -> Branch("hltTauPt",  &_hltTauPt);
+  // this -> _tree -> Branch("hltTauEta", &_hltTauEta);
+  // this -> _tree -> Branch("hltTauPhi", &_hltTauPhi);
+  // this -> _tree -> Branch("hltTauTriggerBits", &_hltTauTriggerBits);
 
-  this -> _tree -> Branch("hltMuPt",  &_hltMuPt);
-  this -> _tree -> Branch("hltMuEta", &_hltMuEta);
-  this -> _tree -> Branch("hltMuPhi", &_hltMuPhi);
-  this -> _tree -> Branch("hltMuTriggerBits", &_hltMuTriggerBits);
+  // this -> _tree -> Branch("hltMuPt",  &_hltMuPt);
+  // this -> _tree -> Branch("hltMuEta", &_hltMuEta);
+  // this -> _tree -> Branch("hltMuPhi", &_hltMuPhi);
+  // this -> _tree -> Branch("hltMuTriggerBits", &_hltMuTriggerBits);
 
-  this -> _tree -> Branch("hltElePt",  &_hltElePt);
-  this -> _tree -> Branch("hltEleEta", &_hltEleEta);
-  this -> _tree -> Branch("hltElePhi", &_hltElePhi);
-  this -> _tree -> Branch("hltEleTriggerBits", &_hltEleTriggerBits);
+  // this -> _tree -> Branch("hltElePt",  &_hltElePt);
+  // this -> _tree -> Branch("hltEleEta", &_hltEleEta);
+  // this -> _tree -> Branch("hltElePhi", &_hltElePhi);
+  // this -> _tree -> Branch("hltEleTriggerBits", &_hltEleTriggerBits);
 
-  this -> _tree -> Branch("hltL2CaloJet_N",    &_hltL2CaloJet_N,    "hltL2CaloJet_N/I");
-  this -> _tree -> Branch("hltL2CaloJet_Pt",   &_hltL2CaloJet_Pt);
-  this -> _tree -> Branch("hltL2CaloJet_Eta",  &_hltL2CaloJet_Eta);
-  this -> _tree -> Branch("hltL2CaloJet_Phi",  &_hltL2CaloJet_Phi);
-  this -> _tree -> Branch("hltL2CaloJet_Iso",  &_hltL2CaloJet_Iso);
+  // this -> _tree -> Branch("hltL2CaloJet_N",    &_hltL2CaloJet_N,    "hltL2CaloJet_N/I");
+  // this -> _tree -> Branch("hltL2CaloJet_Pt",   &_hltL2CaloJet_Pt);
+  // this -> _tree -> Branch("hltL2CaloJet_Eta",  &_hltL2CaloJet_Eta);
+  // this -> _tree -> Branch("hltL2CaloJet_Phi",  &_hltL2CaloJet_Phi);
+  // this -> _tree -> Branch("hltL2CaloJet_Iso",  &_hltL2CaloJet_Iso);
 
-  this -> _tree -> Branch("hltL2CaloJetIsoPix_N",    &_hltL2CaloJetIsoPix_N,    "hltL2CaloJetIsoPix_N/I");
-  this -> _tree -> Branch("hltL2CaloJetIsoPix_Pt",   &_hltL2CaloJetIsoPix_Pt);
-  this -> _tree -> Branch("hltL2CaloJetIsoPix_Eta",  &_hltL2CaloJetIsoPix_Eta);
-  this -> _tree -> Branch("hltL2CaloJetIsoPix_Phi",  &_hltL2CaloJetIsoPix_Phi);
+  // this -> _tree -> Branch("hltL2CaloJetIsoPix_N",    &_hltL2CaloJetIsoPix_N,    "hltL2CaloJetIsoPix_N/I");
+  // this -> _tree -> Branch("hltL2CaloJetIsoPix_Pt",   &_hltL2CaloJetIsoPix_Pt);
+  // this -> _tree -> Branch("hltL2CaloJetIsoPix_Eta",  &_hltL2CaloJetIsoPix_Eta);
+  // this -> _tree -> Branch("hltL2CaloJetIsoPix_Phi",  &_hltL2CaloJetIsoPix_Phi);
 
-  this -> _tree -> Branch("hltPixelTrack_N",    &_hltPixelTrack_N,    "hltPixelTrack_N/I");
-  this -> _tree -> Branch("hltPixelTrack_Pt",   &_hltPixelTrack_Pt);
-  this -> _tree -> Branch("hltPixelTrack_Eta",  &_hltPixelTrack_Eta);
-  this -> _tree -> Branch("hltPixelTrack_Phi",  &_hltPixelTrack_Phi);
+  // this -> _tree -> Branch("hltPixelTrack_N",    &_hltPixelTrack_N,    "hltPixelTrack_N/I");
+  // this -> _tree -> Branch("hltPixelTrack_Pt",   &_hltPixelTrack_Pt);
+  // this -> _tree -> Branch("hltPixelTrack_Eta",  &_hltPixelTrack_Eta);
+  // this -> _tree -> Branch("hltPixelTrack_Phi",  &_hltPixelTrack_Phi);
 
-  this -> _tree -> Branch("hltMergedTrackTauReg_N",    &_hltMergedTrackTauReg_N,    "hltMergedTrackTauReg_N/I");
-  this -> _tree -> Branch("hltMergedTrackTauReg_Pt",   &_hltMergedTrackTauReg_Pt);
-  this -> _tree -> Branch("hltMergedTrackTauReg_Eta",  &_hltMergedTrackTauReg_Eta);
-  this -> _tree -> Branch("hltMergedTrackTauReg_Phi",  &_hltMergedTrackTauReg_Phi);
+  // this -> _tree -> Branch("hltMergedTrackTauReg_N",    &_hltMergedTrackTauReg_N,    "hltMergedTrackTauReg_N/I");
+  // this -> _tree -> Branch("hltMergedTrackTauReg_Pt",   &_hltMergedTrackTauReg_Pt);
+  // this -> _tree -> Branch("hltMergedTrackTauReg_Eta",  &_hltMergedTrackTauReg_Eta);
+  // this -> _tree -> Branch("hltMergedTrackTauReg_Phi",  &_hltMergedTrackTauReg_Phi);
 
-  this -> _tree -> Branch("hltPFRegCand_N",    &_hltPFRegCand_N,    "hltPFRegCand_N/I");
-  this -> _tree -> Branch("hltPFRegCand_Pt",   &_hltPFRegCand_Pt);
-  this -> _tree -> Branch("hltPFRegCand_Eta",  &_hltPFRegCand_Eta);
-  this -> _tree -> Branch("hltPFRegCand_Phi",  &_hltPFRegCand_Phi);
+  // this -> _tree -> Branch("hltPFRegCand_N",    &_hltPFRegCand_N,    "hltPFRegCand_N/I");
+  // this -> _tree -> Branch("hltPFRegCand_Pt",   &_hltPFRegCand_Pt);
+  // this -> _tree -> Branch("hltPFRegCand_Eta",  &_hltPFRegCand_Eta);
+  // this -> _tree -> Branch("hltPFRegCand_Phi",  &_hltPFRegCand_Phi);
 
-  this -> _tree -> Branch("hltAK4PFRegJet_N",    &_hltAK4PFRegJet_N,    "hltAK4PFRegJet_N/I");
-  this -> _tree -> Branch("hltAK4PFRegJet_Pt",   &_hltAK4PFRegJet_Pt);
-  this -> _tree -> Branch("hltAK4PFRegJet_Eta",  &_hltAK4PFRegJet_Eta);
-  this -> _tree -> Branch("hltAK4PFRegJet_Phi",  &_hltAK4PFRegJet_Phi);
+  // this -> _tree -> Branch("hltAK4PFRegJet_N",    &_hltAK4PFRegJet_N,    "hltAK4PFRegJet_N/I");
+  // this -> _tree -> Branch("hltAK4PFRegJet_Pt",   &_hltAK4PFRegJet_Pt);
+  // this -> _tree -> Branch("hltAK4PFRegJet_Eta",  &_hltAK4PFRegJet_Eta);
+  // this -> _tree -> Branch("hltAK4PFRegJet_Phi",  &_hltAK4PFRegJet_Phi);
 
-  this -> _tree -> Branch("hltPFRegCandJetReg_N",    &_hltPFRegCandJetReg_N,    "hltPFRegCandJetReg_N/I");
-  this -> _tree -> Branch("hltPFRegCandJetReg_Pt",   &_hltPFRegCandJetReg_Pt);
-  this -> _tree -> Branch("hltPFRegCandJetReg_Eta",  &_hltPFRegCandJetReg_Eta);
-  this -> _tree -> Branch("hltPFRegCandJetReg_Phi",  &_hltPFRegCandJetReg_Phi);
+  // this -> _tree -> Branch("hltPFRegCandJetReg_N",    &_hltPFRegCandJetReg_N,    "hltPFRegCandJetReg_N/I");
+  // this -> _tree -> Branch("hltPFRegCandJetReg_Pt",   &_hltPFRegCandJetReg_Pt);
+  // this -> _tree -> Branch("hltPFRegCandJetReg_Eta",  &_hltPFRegCandJetReg_Eta);
+  // this -> _tree -> Branch("hltPFRegCandJetReg_Phi",  &_hltPFRegCandJetReg_Phi);
 
-  this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_N",    &_hltTauPFJetsRecoTauChargedHadronsReg_N,    "hltTauPFJetsRecoTauChargedHadronsReg_N/I");
-  this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Pt",   &_hltTauPFJetsRecoTauChargedHadronsReg_Pt);
-  this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Eta",  &_hltTauPFJetsRecoTauChargedHadronsReg_Eta);
-  this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Phi",  &_hltTauPFJetsRecoTauChargedHadronsReg_Phi);
+  // this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_N",    &_hltTauPFJetsRecoTauChargedHadronsReg_N,    "hltTauPFJetsRecoTauChargedHadronsReg_N/I");
+  // this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Pt",   &_hltTauPFJetsRecoTauChargedHadronsReg_Pt);
+  // this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Eta",  &_hltTauPFJetsRecoTauChargedHadronsReg_Eta);
+  // this -> _tree -> Branch("hltTauPFJetsRecoTauChargedHadronsReg_Phi",  &_hltTauPFJetsRecoTauChargedHadronsReg_Phi);
 
-  this -> _tree -> Branch("hltPFPFTauPiZerosReg_N",    &_hltPFTauPiZerosReg_N,    "hltPFTauPiZerosReg_N/I");
-  this -> _tree -> Branch("hltPFPFTauPiZerosReg_Pt",   &_hltPFTauPiZerosReg_Pt);
-  this -> _tree -> Branch("hltPFPFTauPiZerosReg_Eta",  &_hltPFTauPiZerosReg_Eta);
-  this -> _tree -> Branch("hltPFPFTauPiZerosReg_Phi",  &_hltPFTauPiZerosReg_Phi);
+  // this -> _tree -> Branch("hltPFPFTauPiZerosReg_N",    &_hltPFTauPiZerosReg_N,    "hltPFTauPiZerosReg_N/I");
+  // this -> _tree -> Branch("hltPFPFTauPiZerosReg_Pt",   &_hltPFTauPiZerosReg_Pt);
+  // this -> _tree -> Branch("hltPFPFTauPiZerosReg_Eta",  &_hltPFTauPiZerosReg_Eta);
+  // this -> _tree -> Branch("hltPFPFTauPiZerosReg_Phi",  &_hltPFTauPiZerosReg_Phi);
 
-  this -> _tree -> Branch("hltPFTauSansRefReg_N",    &_hltPFTauSansRefReg_N,    "hltPFTauSansRefReg_N/I");
-  this -> _tree -> Branch("hltPFTauSansRefReg_Pt",   &_hltPFTauSansRefReg_Pt);
-  this -> _tree -> Branch("hltPFTauSansRefReg_Eta",  &_hltPFTauSansRefReg_Eta);
-  this -> _tree -> Branch("hltPFTauSansRefReg_Phi",  &_hltPFTauSansRefReg_Phi);
+  // this -> _tree -> Branch("hltPFTauSansRefReg_N",    &_hltPFTauSansRefReg_N,    "hltPFTauSansRefReg_N/I");
+  // this -> _tree -> Branch("hltPFTauSansRefReg_Pt",   &_hltPFTauSansRefReg_Pt);
+  // this -> _tree -> Branch("hltPFTauSansRefReg_Eta",  &_hltPFTauSansRefReg_Eta);
+  // this -> _tree -> Branch("hltPFTauSansRefReg_Phi",  &_hltPFTauSansRefReg_Phi);
 
-  this -> _tree -> Branch("hltPFTauTrack_N",    &_hltPFTauTrack_N,    "hltPFTauTrack_N/I");
-  this -> _tree -> Branch("hltPFTauTrack_Pt",   &_hltPFTauTrack_Pt);
-  this -> _tree -> Branch("hltPFTauTrack_Eta",  &_hltPFTauTrack_Eta);
-  this -> _tree -> Branch("hltPFTauTrack_Phi",  &_hltPFTauTrack_Phi);
+  // this -> _tree -> Branch("hltPFTauTrack_N",    &_hltPFTauTrack_N,    "hltPFTauTrack_N/I");
+  // this -> _tree -> Branch("hltPFTauTrack_Pt",   &_hltPFTauTrack_Pt);
+  // this -> _tree -> Branch("hltPFTauTrack_Eta",  &_hltPFTauTrack_Eta);
+  // this -> _tree -> Branch("hltPFTauTrack_Phi",  &_hltPFTauTrack_Phi);
 
-  this -> _tree -> Branch("hltPFTauTrackReg_N",    &_hltPFTauTrackReg_N,    "hltPFTauTrackReg_N/I");
-  this -> _tree -> Branch("hltPFTauTrackReg_Pt",   &_hltPFTauTrackReg_Pt);
-  this -> _tree -> Branch("hltPFTauTrackReg_Eta",  &_hltPFTauTrackReg_Eta);
-  this -> _tree -> Branch("hltPFTauTrackReg_Phi",  &_hltPFTauTrackReg_Phi);
+  // this -> _tree -> Branch("hltPFTauTrackReg_N",    &_hltPFTauTrackReg_N,    "hltPFTauTrackReg_N/I");
+  // this -> _tree -> Branch("hltPFTauTrackReg_Pt",   &_hltPFTauTrackReg_Pt);
+  // this -> _tree -> Branch("hltPFTauTrackReg_Eta",  &_hltPFTauTrackReg_Eta);
+  // this -> _tree -> Branch("hltPFTauTrackReg_Phi",  &_hltPFTauTrackReg_Phi);
 
-  this -> _tree -> Branch("hltPFTau35TrackPt1Reg_N",    &_hltPFTau35TrackPt1Reg_N,    "hltPFTau35TrackPt1Reg_N/I");
-  this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Pt",   &_hltPFTau35TrackPt1Reg_Pt);
-  this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Eta",  &_hltPFTau35TrackPt1Reg_Eta);
-  this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Phi",  &_hltPFTau35TrackPt1Reg_Phi);
+  // this -> _tree -> Branch("hltPFTau35TrackPt1Reg_N",    &_hltPFTau35TrackPt1Reg_N,    "hltPFTau35TrackPt1Reg_N/I");
+  // this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Pt",   &_hltPFTau35TrackPt1Reg_Pt);
+  // this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Eta",  &_hltPFTau35TrackPt1Reg_Eta);
+  // this -> _tree -> Branch("hltPFTau35TrackPt1Reg_Phi",  &_hltPFTau35TrackPt1Reg_Phi);
 
   return;
 }
@@ -1073,197 +1073,197 @@ void ZeroBias::analyze(const edm::Event& iEvent, const edm::EventSetup& eSetup)
   edm::Handle<pat::TriggerObjectStandAloneCollection> triggerObjects;
   try {iEvent.getByToken(this -> _triggerObjects, triggerObjects);}  catch (...) {;}
 
-  if (triggerObjects.isValid()){
+  // if (triggerObjects.isValid()){
   
-    for (pat::TriggerObjectStandAlone  obj : *triggerObjects)
-      {
+  //   for (pat::TriggerObjectStandAlone  obj : *triggerObjects)
+  //     {
   
-        obj.unpackPathNames(names);
-        const edm::TriggerNames::Strings& triggerNames = names.triggerNames();
+  //       obj.unpackPathNames(names);
+  //       const edm::TriggerNames::Strings& triggerNames = names.triggerNames();
         
-        bool hasTriggerTauType = obj.hasTriggerObjectType(trigger::TriggerTau);
-        bool hasTriggerMuType = obj.hasTriggerObjectType(trigger::TriggerMuon);
-        bool hasTriggerEleType = obj.hasTriggerObjectType(trigger::TriggerElectron);
+  //       bool hasTriggerTauType = obj.hasTriggerObjectType(trigger::TriggerTau);
+  //       bool hasTriggerMuType = obj.hasTriggerObjectType(trigger::TriggerMuon);
+  //       bool hasTriggerEleType = obj.hasTriggerObjectType(trigger::TriggerElectron);
 
-        //Looking for the path
-        unsigned int x = 0;
-        for (const tParameterSet& parameter : this -> _parameters)
-          {
-            if ((parameter.hltPathIndex >= 0)&&(obj.hasPathName(triggerNames[parameter.hltPathIndex], true, false)))
-              {
-                //cout<<"FOUND EVENT with HLT PATH "<<triggerNames[parameter.hltPathIndex]<<endl;
+  //       //Looking for the path
+  //       unsigned int x = 0;
+  //       for (const tParameterSet& parameter : this -> _parameters)
+  //         {
+  //           if ((parameter.hltPathIndex >= 0)&&(obj.hasPathName(triggerNames[parameter.hltPathIndex], true, false)))
+  //             {
+  //               //cout<<"FOUND EVENT with HLT PATH "<<triggerNames[parameter.hltPathIndex]<<endl;
                 
-                this -> _EventTriggerBitSet[x] = true;
+  //               this -> _EventTriggerBitSet[x] = true;
                 
-                if(hasTriggerTauType)
-                  {
-                    //std::cout << "#### FOUND TAU WITH HLT PATH " << x << " ####" << std::endl;
-                    this -> _hltTauPt.push_back(obj.pt());
-                    this -> _hltTauEta.push_back(obj.eta());
-                    this -> _hltTauPhi.push_back(obj.phi());
-                    this -> _hltTauTriggerBits.push_back( x );
-                  }
+  //               if(hasTriggerTauType)
+  //                 {
+  //                   //std::cout << "#### FOUND TAU WITH HLT PATH " << x << " ####" << std::endl;
+  //                   this -> _hltTauPt.push_back(obj.pt());
+  //                   this -> _hltTauEta.push_back(obj.eta());
+  //                   this -> _hltTauPhi.push_back(obj.phi());
+  //                   this -> _hltTauTriggerBits.push_back( x );
+  //                 }
                 
-                if(hasTriggerMuType)
-                  {
-                    //std::cout << "#### FOUND MUON WITH HLT PATH " << x << " ####" << std::endl;
-                    this -> _hltMuPt.push_back(obj.pt());
-                    this -> _hltMuEta.push_back(obj.eta());
-                    this -> _hltMuPhi.push_back(obj.phi());
-                    this -> _hltMuTriggerBits.push_back( x );
-                  }
+  //               if(hasTriggerMuType)
+  //                 {
+  //                   //std::cout << "#### FOUND MUON WITH HLT PATH " << x << " ####" << std::endl;
+  //                   this -> _hltMuPt.push_back(obj.pt());
+  //                   this -> _hltMuEta.push_back(obj.eta());
+  //                   this -> _hltMuPhi.push_back(obj.phi());
+  //                   this -> _hltMuTriggerBits.push_back( x );
+  //                 }
                 
-                if(hasTriggerEleType)
-                  {
-                    //std::cout << "#### FOUND ELE WITH HLT PATH " << x << " ####" << std::endl;
-                    this -> _hltElePt.push_back(obj.pt());
-                    this -> _hltEleEta.push_back(obj.eta());
-                    this -> _hltElePhi.push_back(obj.phi());
-                    this -> _hltEleTriggerBits.push_back( x );
-                  }
-              }
+  //               if(hasTriggerEleType)
+  //                 {
+  //                   //std::cout << "#### FOUND ELE WITH HLT PATH " << x << " ####" << std::endl;
+  //                   this -> _hltElePt.push_back(obj.pt());
+  //                   this -> _hltEleEta.push_back(obj.eta());
+  //                   this -> _hltElePhi.push_back(obj.phi());
+  //                   this -> _hltEleTriggerBits.push_back( x );
+  //                 }
+  //             }
             
-            x++;
-          }
+  //           x++;
+  //         }
         
-        const std::vector<std::string>& L2CaloJetIsoPix_filters = {"hltL2TauIsoFilter"};
-        if (this -> hasFilters(obj, L2CaloJetIsoPix_filters)){
-          this -> _hltL2CaloJetIsoPix_N++;    
-          this -> _hltL2CaloJetIsoPix_Pt.push_back(obj.pt());
-          this -> _hltL2CaloJetIsoPix_Eta.push_back(obj.eta());
-          this -> _hltL2CaloJetIsoPix_Phi.push_back(obj.phi());   
-        }
+  //       const std::vector<std::string>& L2CaloJetIsoPix_filters = {"hltL2TauIsoFilter"};
+  //       if (this -> hasFilters(obj, L2CaloJetIsoPix_filters)){
+  //         this -> _hltL2CaloJetIsoPix_N++;    
+  //         this -> _hltL2CaloJetIsoPix_Pt.push_back(obj.pt());
+  //         this -> _hltL2CaloJetIsoPix_Eta.push_back(obj.eta());
+  //         this -> _hltL2CaloJetIsoPix_Phi.push_back(obj.phi());   
+  //       }
 
-        const std::vector<std::string>& PFTauTrack_filters = {"hltPFTauTrack"};
-        if (this -> hasFilters(obj, PFTauTrack_filters)){
-          this -> _hltPFTauTrack_N++;   
-          this -> _hltPFTauTrack_Pt.push_back(obj.pt());
-          this -> _hltPFTauTrack_Eta.push_back(obj.eta());
-          this -> _hltPFTauTrack_Phi.push_back(obj.phi());
-        }
+  //       const std::vector<std::string>& PFTauTrack_filters = {"hltPFTauTrack"};
+  //       if (this -> hasFilters(obj, PFTauTrack_filters)){
+  //         this -> _hltPFTauTrack_N++;   
+  //         this -> _hltPFTauTrack_Pt.push_back(obj.pt());
+  //         this -> _hltPFTauTrack_Eta.push_back(obj.eta());
+  //         this -> _hltPFTauTrack_Phi.push_back(obj.phi());
+  //       }
 
-        const std::vector<std::string>& PFTauTrackReg_filters = {"hltPFTauTrackReg"};
-        if (this -> hasFilters(obj, PFTauTrackReg_filters)){
-          this -> _hltPFTauTrackReg_N++;    
-          this -> _hltPFTauTrackReg_Pt.push_back(obj.pt());
-          this -> _hltPFTauTrackReg_Eta.push_back(obj.eta());
-          this -> _hltPFTauTrackReg_Phi.push_back(obj.phi());
-        }
+  //       const std::vector<std::string>& PFTauTrackReg_filters = {"hltPFTauTrackReg"};
+  //       if (this -> hasFilters(obj, PFTauTrackReg_filters)){
+  //         this -> _hltPFTauTrackReg_N++;    
+  //         this -> _hltPFTauTrackReg_Pt.push_back(obj.pt());
+  //         this -> _hltPFTauTrackReg_Eta.push_back(obj.eta());
+  //         this -> _hltPFTauTrackReg_Phi.push_back(obj.phi());
+  //       }
 
-        const std::vector<std::string>& PFTau35TrackPt1Reg_filters = {"hltDoublePFTau35TrackPt1Reg"};
-        if (this -> hasFilters(obj, PFTau35TrackPt1Reg_filters)){
-          this -> _hltPFTau35TrackPt1Reg_N++;   
-          this -> _hltPFTau35TrackPt1Reg_Pt.push_back(obj.pt());
-          this -> _hltPFTau35TrackPt1Reg_Eta.push_back(obj.eta());
-          this -> _hltPFTau35TrackPt1Reg_Phi.push_back(obj.phi());
-        }
+  //       const std::vector<std::string>& PFTau35TrackPt1Reg_filters = {"hltDoublePFTau35TrackPt1Reg"};
+  //       if (this -> hasFilters(obj, PFTau35TrackPt1Reg_filters)){
+  //         this -> _hltPFTau35TrackPt1Reg_N++;   
+  //         this -> _hltPFTau35TrackPt1Reg_Pt.push_back(obj.pt());
+  //         this -> _hltPFTau35TrackPt1Reg_Eta.push_back(obj.eta());
+  //         this -> _hltPFTau35TrackPt1Reg_Phi.push_back(obj.phi());
+  //       }
 
-      }
-  }
+  //     }
+  // }
 
 
 
-  edm::Handle< reco::CaloJetCollection > L2CaloJets_ForIsoPix_Handle;
-  try {iEvent.getByToken(_hltL2CaloJet_ForIsoPix_Tag, L2CaloJets_ForIsoPix_Handle);}  catch (...) {;}
+  // edm::Handle< reco::CaloJetCollection > L2CaloJets_ForIsoPix_Handle;
+  // try {iEvent.getByToken(_hltL2CaloJet_ForIsoPix_Tag, L2CaloJets_ForIsoPix_Handle);}  catch (...) {;}
 
-  edm::Handle< reco::JetTagCollection > L2CaloJets_ForIsoPix_IsoHandle;
-  try {iEvent.getByToken(_hltL2CaloJet_ForIsoPix_IsoTag, L2CaloJets_ForIsoPix_IsoHandle);}  catch (...) {;}
+  // edm::Handle< reco::JetTagCollection > L2CaloJets_ForIsoPix_IsoHandle;
+  // try {iEvent.getByToken(_hltL2CaloJet_ForIsoPix_IsoTag, L2CaloJets_ForIsoPix_IsoHandle);}  catch (...) {;}
   
 
-  if(L2CaloJets_ForIsoPix_Handle.isValid() && L2CaloJets_ForIsoPix_IsoHandle.isValid()){
+  // if(L2CaloJets_ForIsoPix_Handle.isValid() && L2CaloJets_ForIsoPix_IsoHandle.isValid()){
 
-    for (auto const &  jet : *L2CaloJets_ForIsoPix_IsoHandle)
-    {
-      edm::Ref<reco::CaloJetCollection> jetRef = edm::Ref<reco::CaloJetCollection>(L2CaloJets_ForIsoPix_Handle,jet.first.key());
-      _hltL2CaloJet_N++;
-      _hltL2CaloJet_Pt.push_back(jet.first->pt());
-      _hltL2CaloJet_Eta.push_back(jet.first->eta());
-      _hltL2CaloJet_Phi.push_back(jet.first->phi());
-      _hltL2CaloJet_Iso.push_back(jet.second);
+  //   for (auto const &  jet : *L2CaloJets_ForIsoPix_IsoHandle)
+  //   {
+  //     edm::Ref<reco::CaloJetCollection> jetRef = edm::Ref<reco::CaloJetCollection>(L2CaloJets_ForIsoPix_Handle,jet.first.key());
+  //     _hltL2CaloJet_N++;
+  //     _hltL2CaloJet_Pt.push_back(jet.first->pt());
+  //     _hltL2CaloJet_Eta.push_back(jet.first->eta());
+  //     _hltL2CaloJet_Phi.push_back(jet.first->phi());
+  //     _hltL2CaloJet_Iso.push_back(jet.second);
    
-    }
+  //   }
 
-  }
+  // }
 
 
-  edm::Handle< reco::TrackCollection > PixelTracks_Handle;
-  try {iEvent.getByToken(_hltPixelTracksRegForTau_Tag, PixelTracks_Handle);}  catch (...) {;}
+  // edm::Handle< reco::TrackCollection > PixelTracks_Handle;
+  // try {iEvent.getByToken(_hltPixelTracksRegForTau_Tag, PixelTracks_Handle);}  catch (...) {;}
 
-  if(PixelTracks_Handle.isValid())
-  {
-    const reco::TrackCollection tracks = *(PixelTracks_Handle.product());
-    for(unsigned int i=0; i<tracks.size(); i++) {
-      _hltPixelTrack_N++;
-      _hltPixelTrack_Pt.push_back(tracks[i].pt());
-      _hltPixelTrack_Eta.push_back(tracks[i].eta());
-      _hltPixelTrack_Phi.push_back(tracks[i].phi());
-    }
-  }
+  // if(PixelTracks_Handle.isValid())
+  // {
+  //   const reco::TrackCollection tracks = *(PixelTracks_Handle.product());
+  //   for(unsigned int i=0; i<tracks.size(); i++) {
+  //     _hltPixelTrack_N++;
+  //     _hltPixelTrack_Pt.push_back(tracks[i].pt());
+  //     _hltPixelTrack_Eta.push_back(tracks[i].eta());
+  //     _hltPixelTrack_Phi.push_back(tracks[i].phi());
+  //   }
+  // }
 
-  edm::Handle< reco::TrackCollection > MergedTracksTauReg_Handle;
-  try {iEvent.getByToken(_hltMergedTracksTauReg_Tag, MergedTracksTauReg_Handle);}  catch (...) {;}
+  // edm::Handle< reco::TrackCollection > MergedTracksTauReg_Handle;
+  // try {iEvent.getByToken(_hltMergedTracksTauReg_Tag, MergedTracksTauReg_Handle);}  catch (...) {;}
 
-  if(MergedTracksTauReg_Handle.isValid())
-  {
-    const reco::TrackCollection tracks = *(MergedTracksTauReg_Handle.product());
-    for(unsigned int i=0; i<tracks.size(); i++)
-    {
-      _hltMergedTrackTauReg_N++;
-      _hltMergedTrackTauReg_Pt.push_back(tracks[i].pt());
-      _hltMergedTrackTauReg_Eta.push_back(tracks[i].eta());
-      _hltMergedTrackTauReg_Phi.push_back(tracks[i].phi());
-    }
-  }
+  // if(MergedTracksTauReg_Handle.isValid())
+  // {
+  //   const reco::TrackCollection tracks = *(MergedTracksTauReg_Handle.product());
+  //   for(unsigned int i=0; i<tracks.size(); i++)
+  //   {
+  //     _hltMergedTrackTauReg_N++;
+  //     _hltMergedTrackTauReg_Pt.push_back(tracks[i].pt());
+  //     _hltMergedTrackTauReg_Eta.push_back(tracks[i].eta());
+  //     _hltMergedTrackTauReg_Phi.push_back(tracks[i].phi());
+  //   }
+  // }
 
-  edm::Handle< reco::PFCandidateCollection > PFRegCand_Handle;
-  try {iEvent.getByToken(_hltPFRegCand_Tag, PFRegCand_Handle);}  catch (...) {;}
+  // edm::Handle< reco::PFCandidateCollection > PFRegCand_Handle;
+  // try {iEvent.getByToken(_hltPFRegCand_Tag, PFRegCand_Handle);}  catch (...) {;}
 
-  if(PFRegCand_Handle.isValid())
-  {  
-    const reco::PFCandidateCollection PFRegCands = *(PFRegCand_Handle.product());
-    for(size_t i=0; i<PFRegCands.size(); i++)
-    {  
-      auto PFRegCand = PFRegCands[i];
+  // if(PFRegCand_Handle.isValid())
+  // {  
+  //   const reco::PFCandidateCollection PFRegCands = *(PFRegCand_Handle.product());
+  //   for(size_t i=0; i<PFRegCands.size(); i++)
+  //   {  
+  //     auto PFRegCand = PFRegCands[i];
 
-      _hltPFRegCand_N++;
-      _hltPFRegCand_Pt.push_back(PFRegCand.pt());
-      _hltPFRegCand_Eta.push_back(PFRegCand.eta());
-      _hltPFRegCand_Phi.push_back(PFRegCand.phi());
-    }
-  }
+  //     _hltPFRegCand_N++;
+  //     _hltPFRegCand_Pt.push_back(PFRegCand.pt());
+  //     _hltPFRegCand_Eta.push_back(PFRegCand.eta());
+  //     _hltPFRegCand_Phi.push_back(PFRegCand.phi());
+  //   }
+  // }
 
-  edm::Handle< reco::PFJetCollection > PFJet_Handle;
-  try {iEvent.getByToken(_hltAK4PFRegJet_Tag, PFJet_Handle);}  catch (...) {;}
+  // edm::Handle< reco::PFJetCollection > PFJet_Handle;
+  // try {iEvent.getByToken(_hltAK4PFRegJet_Tag, PFJet_Handle);}  catch (...) {;}
 
-  if(PFJet_Handle.isValid())
-  {  
-    const reco::PFJetCollection PFJets = *(PFJet_Handle.product());
-    for(size_t i=0; i<PFJets.size(); i++){
+  // if(PFJet_Handle.isValid())
+  // {  
+  //   const reco::PFJetCollection PFJets = *(PFJet_Handle.product());
+  //   for(size_t i=0; i<PFJets.size(); i++){
       
-      auto PFJet = PFJets[i];
+  //     auto PFJet = PFJets[i];
 
-      _hltAK4PFRegJet_N++;
-      _hltAK4PFRegJet_Pt.push_back(PFJet.pt());
-      _hltAK4PFRegJet_Eta.push_back(PFJet.eta());
-      _hltAK4PFRegJet_Phi.push_back(PFJet.phi());
-    }
-  }
+  //     _hltAK4PFRegJet_N++;
+  //     _hltAK4PFRegJet_Pt.push_back(PFJet.pt());
+  //     _hltAK4PFRegJet_Eta.push_back(PFJet.eta());
+  //     _hltAK4PFRegJet_Phi.push_back(PFJet.phi());
+  //   }
+  // }
 
 
-  edm::Handle<reco::CandidateView> jetView;
-  edm::Handle<edm::Association<reco::PFJetCollection> > PFJetRegion_Handle;
-  edm::Handle<reco::PFJetChargedHadronAssociation> chargedHadronAssoc;
-  edm::Handle<reco::JetPiZeroAssociation> piZeroAssoc;
+  // edm::Handle<reco::CandidateView> jetView;
+  // edm::Handle<edm::Association<reco::PFJetCollection> > PFJetRegion_Handle;
+  // edm::Handle<reco::PFJetChargedHadronAssociation> chargedHadronAssoc;
+  // edm::Handle<reco::JetPiZeroAssociation> piZeroAssoc;
 
   /*try {iEvent.getByToken(_hltAK4PFRegJet_Tag, jetView);}  catch (...) {;}
   try {iEvent.getByToken(_hltPFJetRegion_Tag, PFJetRegion_Handle);}  catch (...) {;}
   try {iEvent.getByToken(_chargedHadron_token, chargedHadronAssoc);}  catch (...) {;}
   try {iEvent.getByToken(_piZero_token, piZeroAssoc);}  catch (...) {;}*/
 
-  iEvent.getByToken(_jet_token, jetView);
+  // iEvent.getByToken(_jet_token, jetView);
   //iEvent.getByToken(_hltPFJetRegion_Tag, PFJetRegion_Handle);
-  iEvent.getByToken(_chargedHadron_token, chargedHadronAssoc);
-  iEvent.getByToken(_piZero_token, piZeroAssoc);
+  // iEvent.getByToken(_chargedHadron_token, chargedHadronAssoc);
+  // iEvent.getByToken(_piZero_token, piZeroAssoc);
 
 
   // if(jetView.isValid() && chargedHadronAssoc.isValid() && piZeroAssoc.isValid()){
@@ -1299,22 +1299,22 @@ void ZeroBias::analyze(const edm::Event& iEvent, const edm::EventSetup& eSetup)
   // }
 
 
-  edm::Handle< reco::PFTauCollection > PFTauSansRefReg_Handle;
-  try {iEvent.getByToken(_hltPFTauSansRefReg_Tag, PFTauSansRefReg_Handle);}  catch (...) {;}
+  // edm::Handle< reco::PFTauCollection > PFTauSansRefReg_Handle;
+  // try {iEvent.getByToken(_hltPFTauSansRefReg_Tag, PFTauSansRefReg_Handle);}  catch (...) {;}
 
-  if(PFTauSansRefReg_Handle.isValid())
-  {
-    const reco::PFTauCollection PFTaus = *(PFTauSansRefReg_Handle.product());
-    for(size_t i=0; i<PFTaus.size(); i++){
+  // if(PFTauSansRefReg_Handle.isValid())
+  // {
+  //   const reco::PFTauCollection PFTaus = *(PFTauSansRefReg_Handle.product());
+  //   for(size_t i=0; i<PFTaus.size(); i++){
       
-      auto PFTau = PFTaus[i];
+  //     auto PFTau = PFTaus[i];
 
-      _hltPFTauSansRefReg_N++;
-      _hltPFTauSansRefReg_Pt.push_back(PFTau.pt());
-      _hltPFTauSansRefReg_Eta.push_back(PFTau.eta());
-      _hltPFTauSansRefReg_Phi.push_back(PFTau.phi());
-    }
-  }
+  //     _hltPFTauSansRefReg_N++;
+  //     _hltPFTauSansRefReg_Pt.push_back(PFTau.pt());
+  //     _hltPFTauSansRefReg_Eta.push_back(PFTau.eta());
+  //     _hltPFTauSansRefReg_Phi.push_back(PFTau.phi());
+  //   }
+  // }
 
   this -> _tree -> Fill();
 }
