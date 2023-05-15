@@ -55,7 +55,7 @@
 ██████  ███████  ██████ ███████ ██   ██ ██   ██ ██   ██    ██    ██  ██████  ██   ████
 */
 
-class TauNtuplizerRun3 : public edm::one::EDAnalyzer<> {
+class TauNtuplizerRun3 : public edm::one::EDAnalyzer<edm::one::WatchRuns, edm::one::SharedResources> {
     public:
         /// Constructor
         explicit TauNtuplizerRun3(const edm::ParameterSet&);
@@ -228,7 +228,8 @@ _puTag                         (consumes<std::vector<PileupSummaryInfo>>        
 _hltL2CaloJet_ForIsoPix_Tag    (consumes<reco::CaloJetCollection>                (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_Collection"))),
 _hltL2CaloJet_ForIsoPix_IsoTag (consumes<reco::JetTagCollection>                 (iConfig.getParameter<edm::InputTag>("L2CaloJet_ForIsoPix_IsoCollection")))
 {
-
+    usesResource(TFileService::kSharedResource);
+    
     _isMC = iConfig.getParameter<bool>("isMC");
 
     _hltPrescale = new HLTPrescaleProvider(iConfig, consumesCollector(), *this);
