@@ -39,7 +39,7 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --queue short
 
 # python submitOnTier3.py --inFileList MC_for_taus/DYToLL_tau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_AODSIM2MINIAOD.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/DYToLL_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_AODSIM2MINIAOD_withUnpacked \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/DYToLL_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_AODSIM2MINIAOD \
 #                         --objType tau \
 #                         --jobType noTagAndProbe \
 #                         --inJson None \
@@ -62,15 +62,14 @@ source /opt/exp_soft/cms/t3/t3setup
 
 ## RAW -----------------------------------------------------------------------------------
 # python submitOnTier3.py --inFileList MC_for_egs/DYToLL_M-50_TuneCP5_13p6TeV-pythia8__Run3Summer22EEDR-Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_v1-v1__GEN-SIM-RAW.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0p1/DYToLL_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/DYToLL_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW__caloParams_2023v01 \
 #                         --jobType reEmulL1_MC \
 #                         --inJson None \
 #                         --nJobs 4817 \
 #                         --run Run3 \
 #                         --queue short \
 #                         --globalTag 130X_mcRun3_2022_realistic_v2 \
-#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi \
-#                         --no_exec
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi \
 
 # python submitOnTier3.py --inFileList MC_for_taus/DYTo2L_MLL-50_TuneCP5_13p6TeV_pythia8__Run3Winter23Digi-RnD_126X_mcRun3_2023_forPU65_v1-v2__GEN-SIM-RAW.txt \
 #                         --outFolder Run3preparation_2023/2023_03_22_optimizationVtest/DYToLL_RnD_126X_mcRun3_2023_forPU65_v1_RAW_ZS0p5 \
@@ -101,7 +100,7 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --no_exec
 
 # python submitOnTier3.py --inFileList MC_for_taus/VBFHToTauTau_M125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v3__MINIAODSIM.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/VBFHToTauTau_124X_mcRun3_2022_realistic_MINIAOD_withUnpacked \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/VBFHToTauTau_124X_mcRun3_2022_realistic_MINIAOD \
 #                         --objType tau \
 #                         --jobType noTagAndProbe \
 #                         --inJson None \
@@ -112,7 +111,7 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --caloParams None
 
 # python submitOnTier3.py --inFileList MC_for_taus/VBFHToTauTau_M125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22EEMiniAODv3-Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_v1-v2__MINIAODSIM.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/VBFHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_MINIAOD_withUnpacked \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/VBFHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_MINIAOD \
 #                         --objType tau \
 #                         --jobType noTagAndProbe \
 #                         --inJson None \
@@ -135,24 +134,24 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_modZS0p5_cfi
 
 # python submitOnTier3.py --inFileList MC_for_taus/VBFHToTauTau_M125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22DRPremix-124X_mcRun3_2022_realistic_v12-v3__GEN-SIM-RAW.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/VBFHToTauTau_124X_mcRun3_2022_realistic_RAW \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/VBFHToTauTau_124X_mcRun3_2022_realistic_RAW__caloParams_2023v01 \
 #                         --jobType reEmulL1_MC \
 #                         --inJson None \
 #                         --nJobs 175 \
 #                         --run Run3 \
 #                         --queue short \
 #                         --globalTag 130X_mcRun3_2022_realistic_v2 \
-#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
 
 # python submitOnTier3.py --inFileList MC_for_taus/VBFHToTauTau_M125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22EEDR-Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_v1-v2__GEN-SIM-RAW.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/VBFHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW\
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/VBFHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW__caloParams_2023v01 \
 #                         --jobType reEmulL1_MC \
 #                         --inJson None \
 #                         --nJobs 175 \
 #                         --run Run3 \
 #                         --queue short \
 #                         --globalTag 130X_mcRun3_2022_realistic_v2 \
-#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
 
 
 #################################################################################################
@@ -173,7 +172,7 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --no_exec
 
 # python submitOnTier3.py --inFileList MC_for_taus/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v3__MINIAODSIM.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/GluGluHToTauTau_124X_mcRun3_2022_realistic_MINIAOD_withUnpacked \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/GluGluHToTauTau_124X_mcRun3_2022_realistic_MINIAOD \
 #                         --objType tau \
 #                         --jobType noTagAndProbe \
 #                         --inJson None \
@@ -184,7 +183,7 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --caloParams None
 
 # python submitOnTier3.py --inFileList MC_for_taus/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22EEMiniAODv3-Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_v1-v3__MINIAODSIM.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/GluGluHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_MINIAOD_withUnpacked \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/GluGluHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_MINIAOD \
 #                         --objType tau \
 #                         --jobType noTagAndProbe \
 #                         --inJson None \
@@ -207,24 +206,24 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_modZS0p5_cfi
 
 # python submitOnTier3.py --inFileList MC_for_taus/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22DRPremix-124X_mcRun3_2022_realistic_v12-v3__GEN-SIM-RAW.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/GluGluHToTauTau_124X_mcRun3_2022_realistic_RAW \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/GluGluHToTauTau_124X_mcRun3_2022_realistic_RAW__caloParams_2023v01 \
 #                         --jobType reEmulL1_MC \
 #                         --inJson None \
 #                         --nJobs 175 \
 #                         --run Run3 \
 #                         --queue short \
 #                         --globalTag 130X_mcRun3_2022_realistic_v2 \
-#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
 
 # python submitOnTier3.py --inFileList MC_for_taus/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8__Run3Summer22EEDR-Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_v1-v3__GEN-SIM-RAW.txt \
-#                         --outFolder Run3preparation_2023/2023_03_04_optimizationV0/GluGluHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW \
+#                         --outFolder Run3preparation_2023/2023_05_08_optimizationVtest/GluGluHToTauTau_Poisson70KeepRAW_124X_mcRun3_2022_realistic_postEE_RAW__caloParams_2023v01 \
 #                         --jobType reEmulL1_MC \
 #                         --inJson None \
 #                         --nJobs 175 \
 #                         --run Run3 \
 #                         --queue short \
 #                         --globalTag 130X_mcRun3_2022_realistic_v2 \
-#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
 
 
 
@@ -496,6 +495,16 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --globalTag 124X_dataRun3_Prompt_v10 \
 #                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
 
+# python submitOnTier3.py --inFileList muon_datasets_Run3/Muon__Run2023B-v1__RAW.txt \
+#                         --outFolder Run3preparation_2023/Muon__Run2023B-v1__RAW__DCSOnlyTkPxJSON_reEmuV2 \
+#                         --jobType reEmulL1_zeroBias \
+#                         --inJson Collisions23_13p6TeV_366403_367133_DCSOnly_TkPx.json \
+#                         --nJobs 150 \
+#                         --run Run3 \
+#                         --queue long \
+#                         --globalTag 130X_dataRun3_Prompt_v2 \
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_newTau_cfi
+
 
 ##############################################################################################
 ####################################### ZeroBias 13TeV #######################################
@@ -629,15 +638,45 @@ source /opt/exp_soft/cms/t3/t3setup
 #                         --globalTag 130X_dataRun3_Prompt_v1 \
 #                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
 
-python submitOnTier3.py --inFileList egamma_datasets_Run3/EGamma__Run2023B-PromptReco-v1__MINIAOD.txt \
-                        --outFolder Run3preparation_2023/EGamma__Run2023B-PromptReco-v1__MINIAOD \
-                        --jobType timing_zeroBias \
+# python submitOnTier3.py --inFileList egamma_datasets_Run3/EGamma__Run2023B-PromptReco-v1__MINIAOD.txt \
+#                         --outFolder Run3preparation_2023/EGamma__Run2023B-PromptReco-v1__MINIAOD \
+#                         --jobType timing_zeroBias \
+#                         --inJson None \
+#                         --nJobs 30 \
+#                         --run Run3 \
+#                         --queue short \
+#                         --globalTag 130X_dataRun3_Prompt_v1 \
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+
+# python submitOnTier3.py --inFileList EphemeralZeroBias_Run3/EphemeralZeroBias0__Run2023B-v1__Run367079__RAW.txt \
+#                         --outFolder Run3preparation_2023/EphemeralZeroBias0__Run2023B_Run367079__RAW__caloParams_2023v01 \
+#                         --jobType reEmulL1_zeroBias \
+#                         --inJson None \
+#                         --nJobs 710 \
+#                         --run Run3 \
+#                         --queue short \
+#                         --globalTag 130X_dataRun3_Prompt_v1 \
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
+
+# python submitOnTier3.py --inFileList EphemeralZeroBias_Run3/EphemeralZeroBias1__Run2023B-v1__Run367079__RAW.txt \
+#                         --outFolder Run3preparation_2023/EphemeralZeroBias1__Run2023B_Run367079__RAW__caloParams_2023v01 \
+#                         --jobType reEmulL1_zeroBias \
+#                         --inJson None \
+#                         --nJobs 710 \
+#                         --run Run3 \
+#                         --queue short \
+#                         --globalTag 130X_dataRun3_Prompt_v1 \
+#                         --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_cfi
+
+python submitOnTier3.py --inFileList EphemeralZeroBias_Run3/EphemeralZeroBias0__Run2023B-v1__Run367079__RAW.txt \
+                        --outFolder Run3preparation_2023/EphemeralZeroBias0__Run2023B_Run367079__RAW__reEmuV2 \
+                        --jobType reEmulL1_zeroBias \
                         --inJson None \
-                        --nJobs 30 \
+                        --nJobs 710 \
                         --run Run3 \
                         --queue short \
                         --globalTag 130X_dataRun3_Prompt_v1 \
-                        --caloParams L1Trigger.L1TCalorimeter.caloParams_2022_v0_6_cfi
+                        --caloParams L1Trigger.L1TCalorimeter.caloParams_2023_v0_1_newTau_cfi
 
 ##############################################################################################
 ####################################### EGamma 13.6TeV #######################################
